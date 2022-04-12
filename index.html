@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Project #4 - Smooth Scroll Effect</title>
+    <style>
+      *{
+        transition: ease-in 1s;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -60,7 +65,7 @@
     <!-- JS Script -->
     <script>
       const scroll = new SmoothScroll('.navbar a[href*="#"]', {
-        speed: 500,
+        speed: 1000,
       });
     </script>
   </body>
